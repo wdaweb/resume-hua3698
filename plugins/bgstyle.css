@@ -1,0 +1,100 @@
+body{
+    padding: 1% 10%;
+    background:url(../images/bg2.jpg) no-repeat fixed;
+    background-size: 100vw 100vh;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background: #c0e3e7; */
+    font-size: 2rem;
+    padding: 10px;
+}
+section{
+    /* height: 80vh; */
+    padding: 0% !important;
+    /* margin: 20px 0; */
+}
+.ct{
+    text-align: center;
+}
+
+/* 左邊 */
+.menu{
+    height: 650px;
+}
+.menu .m{
+    margin: 20% 5% 5%;
+    border-bottom: 1px solid #999;
+    font-size: 2rem;
+
+}
+
+.menu a{
+    color: #495057;
+}
+
+
+/* 右邊 */
+.main{
+    /* margin: 1%; */
+}
+table{
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ccc !important;
+    border-collapse: collapse;
+}
+table *:not(.a){
+    border: 1px solid #ccc !important;
+}
+td{
+    padding: 10px;
+
+}
+
+
+/* ab_auto */
+.del{
+    cursor:pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* port */
+.con{
+    border: 1px solid #ccc;
+    /* text-align: center; */
+    padding: 5px;
+    /* flex: 0 0 16%; */
+}
+
+
+/* work_pic */
+#cover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 5;
+    background: rgba(51, 51, 51, 0.4);
+    top: 0px;
+    left: 0px;
+    overflow: auto;
+}
+#coverr {
+    width: 70%;
+    min-width: 300px;
+    max-width: 800px;
+    height: 70%;
+    min-height: 300px;
+    position: absolute;
+    z-index: 5;
+    background: #ffffff;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    overflow: auto;
+}
