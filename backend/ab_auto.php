@@ -34,9 +34,6 @@ foreach ($auto as $id => $a) {
 }
 ?>
 
-<div>還缺上架功能</div>
-用ajax 送去api/del
-
 <!-- <td><input type="button" value="編輯次選單" onclick="op('#cover','#cvr','./popup/submenu.php?table=<?= $do; ?>&id=<?= $row['id']; ?>')"></td> -->
 
 <script>
